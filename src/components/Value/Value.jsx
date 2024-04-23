@@ -23,7 +23,7 @@ const Value = () => {
         {/* left side */}
         <div className="v-left">
           <div className="image-container">
-            <img src="./value.png" alt="" />
+            <img src="./valuef.jpg" alt="" />
           </div>
         </div>
 
@@ -34,9 +34,9 @@ const Value = () => {
           <span className="primaryText">Value We Give to You</span>
 
           <span className="secondaryText">
-            We always ready to help by providijng the best services for you.
+          Our commitment to you goes beyond property - it's about delivering unmatched
             <br />
-            We beleive a good blace to live can make your life better
+          value at every step of your real estate journey.
           </span>
 
           <Accordion

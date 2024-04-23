@@ -1,7 +1,7 @@
 import "./Hero.css";
-import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
+import SearchBar from "../SearchBar/SearchBar";
 const Hero = () => {
   return (
     <section className="hero-wrapper">
@@ -24,34 +24,30 @@ const Hero = () => {
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhero-des">
-            <span>Find a variety of properties that suit you very easilty</span>
-            <span>Forget all difficulties in finding a residence for you</span>
+            <span>Say goodbay to the hassle of house-hunting and</span>
+            <span>embrace the ease of finding your dream residence with us.</span>
           </div>
 
-          <div className="flexCenter search-bar">
-            <HiLocationMarker color="var(--blue)" size={25} />
-            <input type="text" />
-            <button className="button">Search</button>
-          </div>
+          <SearchBar/>
 
           <div className="flexCenter stats">
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={8800} end={9000} duration={4} /> <span>+</span>
+                <CountUp start={7000} end={8000} duration={4} /> <span>+</span>
               </span>
               <span className="secondaryText">Premium Product</span>
             </div>
 
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={1950} end={2000} duration={4} /> <span>+</span>
+                <CountUp start={1450} end={1500} duration={4} /> <span>+</span>
               </span>
               <span className="secondaryText">Happy Customer</span>
             </div>
 
             <div className="flexColCenter stat">
               <span>
-                <CountUp end={28} /> <span>+</span>
+                <CountUp end={20} /> <span>+</span>
               </span>
               <span className="secondaryText">Awards Winning</span>
             </div>
@@ -69,7 +65,7 @@ const Hero = () => {
             }}
             className="image-container"
           >
-            <img src="./hero-image.png" alt="houses" />
+            <img src="./hero-images.jpg" alt="houses" />
           </motion.div>
         </div>
       </div>

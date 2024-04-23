@@ -3,21 +3,21 @@ import { MdCancel, MdAnalytics } from "react-icons/md";
 const data = [
   {
     icon: <HiShieldCheck/>,
-    heading: "Best interest rates on the market",
+    heading: "Experience the best interest rates on the market",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Experience unparalleled savings with our market-leading interest rates. Take advantage of our competitive rates to secure your dream home and maximize your investment potential. Don't settle for less - discover the best rates available and start your journey to homeownership today!",
   },
   {
     icon: <MdCancel />,
     heading: "Prevent unstable prices",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Implement measures to stabilize prices and mitigate market volatility, ensuring a more secure and predictable economic environment.",
   },
   {
     icon: <MdAnalytics />,
     heading: "Best price on the market",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Unlock unparalleled value with our unbeatable prices. Our commitment to providing the best prices on the market ensures you get the most out of your investment. Shop confidently knowing you're getting the top deals available, exclusively with us.",
   },
 ];
 export default data;
